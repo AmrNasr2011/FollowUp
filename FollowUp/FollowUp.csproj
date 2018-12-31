@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{62FEA4B0-68D1-4014-8ACB-B0C84EB4D42D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FollowUp</RootNamespace>
+    <AssemblyName>FollowUp</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.8.1.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.8.1\lib\net40\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessDB.cs" />
+    <Compile Include="Achivments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Achivments.Designer.cs">
+      <DependentUpon>Achivments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddOfferDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOfferDetail.Designer.cs">
+      <DependentUpon>AddOfferDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddOfferGeneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOfferGeneral.Designer.cs">
+      <DependentUpon>AddOfferGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddOrderDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOrderDetail.Designer.cs">
+      <DependentUpon>AddOrderDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddOrderGeneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOrderGeneral.Designer.cs">
+      <DependentUpon>AddOrderGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assignment.Designer.cs">
+      <DependentUpon>Assignment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CLO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CLO.Designer.cs">
+      <DependentUpon>CLO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comment.Designer.cs">
+      <DependentUpon>Comment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DateForm.Designer.cs">
+      <DependentUpon>DateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB_Location.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DB_Location.Designer.cs">
+      <DependentUpon>DB_Location.cs</DependentUpon>
+    </Compile>
+    <Compile Include="drawingModif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="drawingModif.Designer.cs">
+      <DependentUpon>drawingModif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtractTasksReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtractTasksReport.Designer.cs">
+      <DependentUpon>ExtractTasksReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FollowUpCore.cs" />
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Designer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Designer.Designer.cs">
+      <DependentUpon>Main_Designer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Manager.Designer.cs">
+      <DependentUpon>Main_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_TeamLeader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_TeamLeader.Designer.cs">
+      <DependentUpon>Main_TeamLeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager.Designer.cs">
+      <DependentUpon>Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyOffer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyOffer.Designer.cs">
+      <DependentUpon>ModifyOffer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyOrder.Designer.cs">
+      <DependentUpon>ModifyOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewTask.Designer.cs">
+      <DependentUpon>NewTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="otherTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="otherTask.Designer.cs">
+      <DependentUpon>otherTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasswordChange.Designer.cs">
+      <DependentUpon>PasswordChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreviewDesigner.Designer.cs">
+      <DependentUpon>PreviewDesigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Push_to_db.cs" />
+    <Compile Include="spare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="spare.Designer.cs">
+      <DependentUpon>spare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartScreen.Designer.cs">
+      <DependentUpon>StartScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeamLeader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeamLeader.Designer.cs">
+      <DependentUpon>TeamLeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToExcel.cs" />
+    <Compile Include="UpdateTool.cs" />
+    <EmbeddedResource Include="Achivments.resx">
+      <DependentUpon>Achivments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOfferDetail.resx">
+      <DependentUpon>AddOfferDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOfferGeneral.resx">
+      <DependentUpon>AddOfferGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOrderDetail.resx">
+      <DependentUpon>AddOrderDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOrderGeneral.resx">
+      <DependentUpon>AddOrderGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assignment.resx">
+      <DependentUpon>Assignment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CLO.resx">
+      <DependentUpon>CLO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateForm.resx">
+      <DependentUpon>DateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DB_Location.resx">
+      <DependentUpon>DB_Location.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="drawingModif.resx">
+      <DependentUpon>drawingModif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtractTasksReport.resx">
+      <DependentUpon>ExtractTasksReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Designer.resx">
+      <DependentUpon>Main_Designer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Manager.resx">
+      <DependentUpon>Main_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_TeamLeader.resx">
+      <DependentUpon>Main_TeamLeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyOffer.resx">
+      <DependentUpon>ModifyOffer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyOrder.resx">
+      <DependentUpon>ModifyOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTask.resx">
+      <DependentUpon>NewTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="otherTask.resx">
+      <DependentUpon>otherTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordChange.resx">
+      <DependentUpon>PasswordChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviewDesigner.resx">
+      <DependentUpon>PreviewDesigner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="spare.resx">
+      <DependentUpon>spare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartScreen.resx">
+      <DependentUpon>StartScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2000px-Warning_icon.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
