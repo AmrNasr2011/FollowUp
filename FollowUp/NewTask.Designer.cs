@@ -35,17 +35,20 @@
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(44, 40);
+            this.dataGridView2.Location = new System.Drawing.Point(66, 58);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(805, 150);
+            this.dataGridView2.Size = new System.Drawing.Size(1208, 219);
             this.dataGridView2.TabIndex = 1;
             // 
             // NewTask
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(887, 261);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1330, 381);
             this.Controls.Add(this.dataGridView2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "NewTask";
             this.Text = "NewTask";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();

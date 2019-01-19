@@ -12,7 +12,7 @@ namespace FollowUp.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.1.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.0.1.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -36,8 +36,8 @@ namespace FollowUp.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\"\\\\waeg00202\\share\\TDO-Quality Impr" +
-            "ovement\\FollowUp-Tool\\FollowUp.accdb\"")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\"\\\\WAEG00202\\portal\\TDO-Quality Imp" +
+            "rovement\\FollowUp-Tool\\FollowUp.accdb\"")]
         public string FollowUpConnectionString {
             get {
                 return ((string)(this["FollowUpConnectionString"]));
@@ -47,8 +47,8 @@ namespace FollowUp.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\bin\\Debug\\FollowUp." +
-            "accdb")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\"\\\\WAEG00202\\portal\\TDO-Quality Imp" +
+            "rovement\\FollowUp-Tool\\FollowUp.accdb\"")]
         public string OFFERConnectionString1 {
             get {
                 return ((string)(this["OFFERConnectionString1"]));
@@ -57,7 +57,7 @@ namespace FollowUp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("\\\\waeg00202\\share\\TDO-Quality Improvement\\FollowUp-Tool\\Follow.accdb")]
+        [global::System.Configuration.DefaultSettingValueAttribute("\\\\WAEG00202\\portal\\TDO-Quality Improvement\\FollowUp-Tool\\FollowUp.accdb")]
         public string RemoteDBLOC {
             get {
                 return ((string)(this["RemoteDBLOC"]));
@@ -81,7 +81,7 @@ namespace FollowUp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("\\\\waeg00202\\share\\TDO-Quality Improvement\\FollowUp-Tool")]
+        [global::System.Configuration.DefaultSettingValueAttribute("\\\\WAEG00202\\portal\\TDO-Quality Improvement\\FollowUp-Tool")]
         public string UpdateLink {
             get {
                 return ((string)(this["UpdateLink"]));
@@ -93,7 +93,7 @@ namespace FollowUp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1.01.01")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1.01.02")]
         public string UpdateVersion {
             get {
                 return ((string)(this["UpdateVersion"]));

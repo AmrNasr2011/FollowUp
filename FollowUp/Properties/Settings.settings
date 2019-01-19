@@ -13,30 +13,30 @@
     <Setting Name="FollowUpConnectionString" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;Provider=Microsoft.ACE.OLEDB.12.0;Data Source="\\waeg00202\share\TDO-Quality Improvement\FollowUp-Tool\FollowUp.accdb"&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.ACE.OLEDB.12.0;Data Source="\\WAEG00202\portal\TDO-Quality Improvement\FollowUp-Tool\FollowUp.accdb"&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source="\\waeg00202\share\TDO-Quality Improvement\FollowUp-Tool\FollowUp.accdb"</Value>
+      <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source="\\WAEG00202\portal\TDO-Quality Improvement\FollowUp-Tool\FollowUp.accdb"</Value>
     </Setting>
     <Setting Name="OFFERConnectionString1" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\bin\Debug\FollowUp.accdb&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.ACE.OLEDB.12.0;Data Source="\\WAEG00202\portal\TDO-Quality Improvement\FollowUp-Tool\FollowUp.accdb"&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\bin\Debug\FollowUp.accdb</Value>
+      <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source="\\WAEG00202\portal\TDO-Quality Improvement\FollowUp-Tool\FollowUp.accdb"</Value>
     </Setting>
     <Setting Name="RemoteDBLOC" Type="System.String" Scope="User">
-      <Value Profile="(Default)">\\waeg00202\share\TDO-Quality Improvement\FollowUp-Tool\Follow.accdb</Value>
+      <Value Profile="(Default)">\\WAEG00202\portal\TDO-Quality Improvement\FollowUp-Tool\FollowUp.accdb</Value>
     </Setting>
     <Setting Name="password" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="UpdateLink" Type="System.String" Scope="User">
-      <Value Profile="(Default)">\\waeg00202\share\TDO-Quality Improvement\FollowUp-Tool</Value>
+      <Value Profile="(Default)">\\WAEG00202\portal\TDO-Quality Improvement\FollowUp-Tool</Value>
     </Setting>
     <Setting Name="UpdateVersion" Type="System.String" Scope="User">
-      <Value Profile="(Default)">1.01.01</Value>
+      <Value Profile="(Default)">1.01.02</Value>
     </Setting>
     <Setting Name="UpdateFile" Type="System.String" Scope="User">
       <Value Profile="(Default)">FollowUpX64.msi</Value>

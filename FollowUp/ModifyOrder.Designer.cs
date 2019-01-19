@@ -35,9 +35,10 @@
             // 
             // ModifyItem
             // 
-            this.ModifyItem.Location = new System.Drawing.Point(719, 32);
+            this.ModifyItem.Location = new System.Drawing.Point(1078, 47);
+            this.ModifyItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ModifyItem.Name = "ModifyItem";
-            this.ModifyItem.Size = new System.Drawing.Size(112, 23);
+            this.ModifyItem.Size = new System.Drawing.Size(168, 34);
             this.ModifyItem.TabIndex = 1;
             this.ModifyItem.Text = "Modify Item";
             this.ModifyItem.UseVisualStyleBackColor = true;
@@ -52,22 +53,25 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.DGV.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             this.DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGV.Location = new System.Drawing.Point(40, 61);
+            this.DGV.Location = new System.Drawing.Point(60, 89);
+            this.DGV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DGV.MultiSelect = false;
             this.DGV.Name = "DGV";
             this.DGV.ReadOnly = true;
             this.DGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DGV.Size = new System.Drawing.Size(822, 430);
+            this.DGV.Size = new System.Drawing.Size(1233, 628);
             this.DGV.TabIndex = 2;
             this.DGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_CellClick);
             // 
             // ModifyOrder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(903, 522);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1354, 763);
             this.Controls.Add(this.ModifyItem);
             this.Controls.Add(this.DGV);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ModifyOrder";
             this.Text = "ModifyOrder";
             this.Load += new System.EventHandler(this.ModifyOrder_Load);
