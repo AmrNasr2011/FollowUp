@@ -18,7 +18,7 @@ namespace FollowUp
             InitializeComponent();
         }
         void loadAllStatus()
-        {
+        {//this fillter for all tasks exist and count them and show them over icons
             FollowUpCore.LoadOffer.DefaultView.RowFilter = string.Format("[Due Date SLD] IS NOT NULL AND [Actual Date SLD] IS NULL");
             LblSLDOffer.Text = FollowUpCore.LoadOffer.DefaultView.Count.ToString();
             FollowUpCore.LoadOffer.DefaultView.RowFilter = string.Format("[Due Date Schematics] IS NOT NULL AND [Actual Date Schematics] IS NULL");
@@ -26,7 +26,7 @@ namespace FollowUp
             FollowUpCore.LoadOrder.DefaultView.RowFilter = string.Format("[ABOM Due Date] IS NOT NULL AND [Actual Date ABOM] IS NULL");
             LblABOM.Text = FollowUpCore.LoadOrder.DefaultView.Count.ToString();
             FollowUpCore.LoadOrder.DefaultView.RowFilter = string.Format("[BBOM Due Date] IS NOT NULL AND [Actual Date BBOM] IS NULL");
-            LblBBOM.Text = FollowUpCore.LoadOrder.DefaultView.Count.ToString();
+          // LblBBOM.Text = FollowUpCore.LoadOrder.DefaultView.Count.ToString();
             FollowUpCore.LoadOrder.DefaultView.RowFilter = string.Format("[NSR Due Date] IS NOT NULL AND [Actual Date NSR] IS NULL");
             LblNSR.Text = FollowUpCore.LoadOrder.DefaultView.Count.ToString();
             FollowUpCore.LoadOrder.DefaultView.RowFilter = string.Format("[Due Date Schematics] IS NOT NULL AND [Actual Date Schematics] IS NULL");
@@ -188,5 +188,23 @@ namespace FollowUp
             PasswordChange pc = new PasswordChange();
             pc.ShowDialog();
         }
+
+        private void AddOtherTask_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DrawingMod_Click(object sender, EventArgs e)
+        {
+            drawingModif Drmod = new drawingModif();
+            this.Visible = false;
+            Drmod.ShowDialog();
+            this.Visible = true;
+            FollowUpCore.LoadOffer = AccessDB.Read_DataSet1(FollowUpCore.DicTeam_Designers, "OfferDetail", "*");
+            FollowUpCore.LoadOrder = AccessDB.Read_DataSet1(FollowUpCore.DicTeam_Designers, "OrderDetail", "*");
+            loadAllStatus();
+        }
+
+
     }
 }

@@ -27,7 +27,7 @@
       <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source="\\WAEG00202\portal\TDO-Quality Improvement\FollowUp-Tool\FollowUp.accdb"</Value>
     </Setting>
     <Setting Name="RemoteDBLOC" Type="System.String" Scope="User">
-      <Value Profile="(Default)">\\WAEG00202\portal\TDO-Quality Improvement\FollowUp-Tool\FollowUp.accdb</Value>
+      <Value Profile="(Default)">D:\C sharp Codetest\FollowUp 2019\followup2019\FollowUp\bin\Follow.accdb</Value>
     </Setting>
     <Setting Name="password" Type="System.String" Scope="User">
       <Value Profile="(Default)" />

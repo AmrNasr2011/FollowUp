@@ -57,10 +57,22 @@
     <Reference Include="DocumentFormat.OpenXml, Version=2.8.1.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
       <HintPath>..\packages\DocumentFormat.OpenXml.2.8.1\lib\net40\DocumentFormat.OpenXml.dll</HintPath>
     </Reference>
+    <Reference Include="EPPlus, Version=4.5.3.2, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.4.5.3.2\lib\net40\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -140,6 +152,12 @@
     <Compile Include="drawingModif.Designer.cs">
       <DependentUpon>drawingModif.cs</DependentUpon>
     </Compile>
+    <Compile Include="Excel_Create.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel_Create.Designer.cs">
+      <DependentUpon>Excel_Create.cs</DependentUpon>
+    </Compile>
     <Compile Include="ExtractTasksReport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,6 +195,12 @@
     <Compile Include="Manager.Designer.cs">
       <DependentUpon>Manager.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification.Designer.cs">
+      <DependentUpon>Modification.cs</DependentUpon>
+    </Compile>
     <Compile Include="ModifyOffer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -194,6 +218,12 @@
     </Compile>
     <Compile Include="NewTask.Designer.cs">
       <DependentUpon>NewTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NonCLO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NonCLO.Designer.cs">
+      <DependentUpon>NonCLO.cs</DependentUpon>
     </Compile>
     <Compile Include="otherTask.cs">
       <SubType>Form</SubType>
@@ -216,6 +246,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Push_to_db.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="spare.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -236,6 +267,12 @@
     </Compile>
     <Compile Include="ToExcel.cs" />
     <Compile Include="UpdateTool.cs" />
+    <Compile Include="Vaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vaction.Designer.cs">
+      <DependentUpon>Vaction.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Achivments.resx">
       <DependentUpon>Achivments.cs</DependentUpon>
     </EmbeddedResource>
@@ -266,6 +303,9 @@
     <EmbeddedResource Include="drawingModif.resx">
       <DependentUpon>drawingModif.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Excel_Create.resx">
+      <DependentUpon>Excel_Create.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ExtractTasksReport.resx">
       <DependentUpon>ExtractTasksReport.cs</DependentUpon>
     </EmbeddedResource>
@@ -281,6 +321,9 @@
     <EmbeddedResource Include="Main_TeamLeader.resx">
       <DependentUpon>Main_TeamLeader.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Modification.resx">
+      <DependentUpon>Modification.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ModifyOffer.resx">
       <DependentUpon>ModifyOffer.cs</DependentUpon>
     </EmbeddedResource>
@@ -289,6 +332,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NewTask.resx">
       <DependentUpon>NewTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NonCLO.resx">
+      <DependentUpon>NonCLO.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="otherTask.resx">
       <DependentUpon>otherTask.cs</DependentUpon>
@@ -315,9 +361,12 @@
     <EmbeddedResource Include="StartScreen.resx">
       <DependentUpon>StartScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Vaction.resx">
+      <DependentUpon>Vaction.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <Compile Include="Properties\Settings.Designer.cs">
@@ -343,12 +392,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Outlook\Outlook.csproj">
-      <Project>{22ccc02f-54c0-4697-b0eb-8b8219878d7a}</Project>
-      <Name>Outlook</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

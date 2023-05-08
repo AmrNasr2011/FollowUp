@@ -72,12 +72,12 @@ namespace FollowUp
             {
                 checkedlist.Add(DesignersCB.CheckedItems[i].ToString());
             }
-            if (String.IsNullOrEmpty(DueDateFromt.Text) || String.IsNullOrEmpty(DueDateTot.Text))
-            {
+            //if (String.IsNullOrEmpty(DueDateFromt.Text) || String.IsNullOrEmpty(DueDateTot.Text))
+            //{
                 
-                MessageBox.Show("Filteration Date Cannot be empty", "Missing Important Data", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
+            //    MessageBox.Show("Filteration Date Cannot be empty", "Missing Important Data", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    return;
+            //}
             //create  8 tables with above filter
             //  DataView view = new DataView(FollowUpCore.LoadOffer, "[Team Leader] = '" + FollowUpCore.UserName+"'", " AND  [Due Date SLD] >= #" + DueDateFromt.Text + "# AND  [Due Date SLD] <= #"+DueDateTot.Text + "#", DataViewRowState.CurrentRows);
             try

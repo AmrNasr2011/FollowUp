@@ -111,7 +111,7 @@ namespace FollowUp
 
             ListTCO = AccessDB.GetData(new Dictionary<string, string>() { { "Role", "TCO" } }, "Interfaces", "Employee");
             ListTCR = AccessDB.GetData(new Dictionary<string, string>() { { "Role", "TCR" } }, "Interfaces", "Employee");
-
+//ToDo:need to import all those data to database and retrieve them.
             Segment = new List<string>() {"","Oil&Gas","Infrastructure","WWW","Utility","Export" ,"Building","Service"};
             Complexity = new List<string>() { "","Simple", "Medium", "Complex"};
             Complexity1 = new List<string>() { "", "Simple", "Medium", "Complex" };
@@ -556,13 +556,28 @@ namespace FollowUp
                 {
                     
                     data.Add("SM6");
+                    data.Add("RM6");
                     data.Add("MCSET123");
                     data.Add("MCSET4");
                     data.Add("PIXROF");
+                    data.Add("RONEX");
                     data.Add("VARBLOK");
                     data.Add("RETROFET");
+                    data.Add("SPARE");
+                }
+                else if (department == "ALL")
+                {
+                    data.Add("BK7");
+                    data.Add("OKKEN");
+                    data.Add("SM6");
+                    data.Add("RM6");
+                    data.Add("MCSET123");
+                    data.Add("MCSET4");
+                    data.Add("PIXROF");
                     data.Add("RONEX");
-
+                    data.Add("VARBLOK");
+                    data.Add("RETROFET");
+                    data.Add("SPARE");
                 }
             }
            

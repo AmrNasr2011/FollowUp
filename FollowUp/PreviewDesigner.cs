@@ -212,6 +212,11 @@ namespace FollowUp
             }
 
         }
+
+        private void GoToDashboard_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
 

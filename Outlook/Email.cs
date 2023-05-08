@@ -8,7 +8,6 @@ using System.Configuration;
 using System.IO;
 using System.Net.Mail;
 using System.Runtime.InteropServices;
-using Outlooks = Microsoft.Office.Interop.Outlook;
 using Office = Microsoft.Office.Core;
 namespace Outlook
 {
@@ -20,7 +19,7 @@ namespace Outlook
             RTF,
             HTML
         }
-        public static bool sendEmailViaOutlook(string sFromAddress, string sToAddress, string sCc, string sSubject, string sBody, BodyType bodyType, List<string> arrAttachments = null, string sBcc = null)
+        /*        public static bool sendEmailViaOutlook(string sFromAddress, string sToAddress, string sCc, string sSubject, string sBody, BodyType bodyType, List<string> arrAttachments = null, string sBcc = null)
         {
             //Send email via Office Outlook 2010
             //'sFromAddress' = email address sending from (ex: "me@somewhere.com") -- this account must exist in Outlook. Only one email address is allowed!
@@ -161,5 +160,6 @@ namespace Outlook
 
             return bRes;
         }
+        */
     }
 }

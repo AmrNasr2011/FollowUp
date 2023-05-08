@@ -23,7 +23,7 @@ namespace FollowUp
         {
             TCO.DataSource = FollowUpCore.ListTCO;
             Segment.DataSource = FollowUpCore.Segment;
-            CommonComplexity.DataSource = FollowUpCore.Complexity;
+   //         CommonComplexity.DataSource = FollowUpCore.Complexity;
             SLDModComplexity.DataSource = FollowUpCore.Complexity1;
             SchematicsModComplexity.DataSource = FollowUpCore.Complexity2;
             Designer.DataSource = FollowUpCore.Team_Designers;
@@ -55,8 +55,8 @@ namespace FollowUp
                 row["Items Numbers"]=ItemsNumbers.Text;
                 row["Total Items"]=TotalItems.Text;
                 row["Total Cells"]=TotalCells.Text;
-                row["Patch Name"] = PatchName.Text;
-                row["Common Complexity"] = CommonComplexity.Text;
+  //              row["Patch Name"] = PatchName.Text;
+  //              row["Common Complexity"] = CommonComplexity.Text;
                 row["Receive Date"] = FollowUpCore.Date_validate(ReceiveDatet.Text);
                 row["SLD Modification"] = CBSLDModification.Checked;
                 row["Due Date SLD"] = FollowUpCore.Date_validate(SLDDueDatet.Text);
@@ -129,12 +129,12 @@ namespace FollowUp
                 MessageBox.Show("Offer Total number of Cells Cannot be empty", "Missing Important Data", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
-            else if (string.IsNullOrEmpty(CommonComplexity.Text))
-            {
-                MessageBox.Show("Offer Common Complexity Cannot be empty", "Missing Important Data", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return false;
+  //          else if (string.IsNullOrEmpty(CommonComplexity.Text))
+            //{
+            //    MessageBox.Show("Offer Common Complexity Cannot be empty", "Missing Important Data", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    return false;
 
-            }
+            //}
             else if (!int.TryParse(TotalCells.Text,out int z))
             {
                 MessageBox.Show("Total Number of Cells must be number", "Wrong Data", MessageBoxButtons.OK, MessageBoxIcon.Error);

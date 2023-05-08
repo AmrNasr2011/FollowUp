@@ -32,6 +32,8 @@ namespace FollowUp
             table = new DataTable();
             table = FollowUpCore.GeneralOrder_table.Clone();
             row = table.NewRow();
+            ABOM.Checked = true;
+            ProductionBOM.Checked = true;
         }
 
         private void AApprovalDatet_TextChanged(object sender, EventArgs e)

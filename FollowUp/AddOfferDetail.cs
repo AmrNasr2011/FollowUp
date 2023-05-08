@@ -32,8 +32,8 @@ namespace FollowUp
             Segment.DataSource = FollowUpCore.Segment;
             Complexity.DataSource = FollowUpCore.Complexity;
             Family.DataSource = FollowUpCore.DepartmentTodata(FollowUpCore.UserDepartment, "Family");
-            SLDModComplexity.DataSource = FollowUpCore.Complexity1;
-            SchematicsModComplexity.DataSource = FollowUpCore.Complexity2;
+//            SLDModComplexity.DataSource = FollowUpCore.Complexity1;
+//            SchematicsModComplexity.DataSource = FollowUpCore.Complexity2;
             Designer.DataSource = FollowUpCore.Team_Designers;
             int i = 0;
             int c = 0;
@@ -193,34 +193,34 @@ namespace FollowUp
             NumberOfCells.Text = TDetails.Rows[index]["Total Cells"].ToString();
             Family.Text = TDetails.Rows[index]["Family"].ToString();
             Complexity.Text = TDetails.Rows[index]["Complexity"].ToString();
-            PatchName.Text = TDetails.Rows[index]["Patch Name"].ToString();
+   //         PatchName.Text = TDetails.Rows[index]["Patch Name"].ToString();
             ReciveDatet.Text = FollowUpCore.Date_show(TDetails.Rows[index]["Receive Date"]);
 
-            SLDModification.Checked = TDetails.Rows[index]["SLD Modification"].ToString() == "True" ? true : false;
+ //           SLDModification.Checked = TDetails.Rows[index]["SLD Modification"].ToString() == "True" ? true : false;
             SLDDueDatet.Text = FollowUpCore.Date_show(TDetails.Rows[index]["Due Date SLD"]);
             SLDCLODate.Text = FollowUpCore.Date_show(TDetails.Rows[index]["Due Date CLO SLD"]);
             SLDActualDatet.Text = FollowUpCore.Date_show(TDetails.Rows[index]["Actual Date SLD"]);
-            SLDModComplexity.Text = TDetails.Rows[index]["SLD Modification Complexity"].ToString();
-            SLDModCells.Text = TDetails.Rows[index]["SLD Modification Impacted Cells"].ToString();
+  //          SLDModComplexity.Text = TDetails.Rows[index]["SLD Modification Complexity"].ToString();
+  //          SLDModCells.Text = TDetails.Rows[index]["SLD Modification Impacted Cells"].ToString();
             SLDComment.Text = TDetails.Rows[index]["SLD Drawing Comment"].ToString();
 
-            SchematicsModification.Checked = TDetails.Rows[index]["Schematics Modification"].ToString() == "True" ? true : false;
+  //          SchematicsModification.Checked = TDetails.Rows[index]["Schematics Modification"].ToString() == "True" ? true : false;
             SchematicsDueDatet.Text = FollowUpCore.Date_show(TDetails.Rows[index]["Due Date Schematics"]);
             SchematicsCLODate.Text = FollowUpCore.Date_show(TDetails.Rows[index]["Due Date CLO Schematics"]);
             SchematicsActualDatet.Text = FollowUpCore.Date_show(TDetails.Rows[index]["Actual Date Schematics"]);
-            SchematicsModComplexity.Text = TDetails.Rows[index]["Schematics Modification Complexity"].ToString();
-            SchematicsModCells.Text = TDetails.Rows[index]["Schematics Modification Impacted Cells"].ToString();
+    //        SchematicsModComplexity.Text = TDetails.Rows[index]["Schematics Modification Complexity"].ToString();
+   //         SchematicsModCells.Text = TDetails.Rows[index]["Schematics Modification Impacted Cells"].ToString();
             SchematicsComment.Text = TDetails.Rows[index]["Schematics Drawing Comment"].ToString();
             tb_current.Text = index.ToString();
 
-            SLDModComplexity.Visible = SLDModification.Checked;
-            label7.Visible = SLDModification.Checked;
-            label6.Visible = SLDModification.Checked;
-            SLDModCells.Visible = SLDModification.Checked;
-            label8.Visible = SchematicsModification.Checked;
-            SchematicsModComplexity.Visible = SchematicsModification.Checked;
-            label12.Visible = SchematicsModification.Checked;
-            SchematicsModCells.Visible = SchematicsModification.Checked;
+  //          SLDModComplexity.Visible = SLDModification.Checked;
+  //          label7.Visible = SLDModification.Checked;
+  //          label6.Visible = SLDModification.Checked;
+   //         SLDModCells.Visible = SLDModification.Checked;
+   //         label8.Visible = SchematicsModification.Checked;
+   //         SchematicsModComplexity.Visible = SchematicsModification.Checked;
+  //          label12.Visible = SchematicsModification.Checked;
+  //          SchematicsModCells.Visible = SchematicsModification.Checked;
             SDLDrawingsGB.Visible = SLDDrawings.Checked;
             SchematicsDrawingGB.Visible = SchematicsDrawings.Checked;
         }
@@ -243,23 +243,23 @@ namespace FollowUp
                 TDetails.Rows[index]["Total Cells"] = NumberOfCells.Text;
                 TDetails.Rows[index]["Family"] = Family.Text;
                 TDetails.Rows[index]["Complexity"] = Complexity.Text;
-                TDetails.Rows[index]["Patch Name"] = PatchName.Text;
+//                TDetails.Rows[index]["Patch Name"] = PatchName.Text;
                 TDetails.Rows[index]["Receive Date"] = FollowUpCore.Date_validate(ReciveDatet.Text);
-                TDetails.Rows[index]["SLD Modification"] = SLDModification.Checked;
+//                TDetails.Rows[index]["SLD Modification"] = SLDModification.Checked;
                 TDetails.Rows[index]["Due Date SLD"] = FollowUpCore.Date_validate(SLDDueDatet.Text);
                 TDetails.Rows[index]["Due Date CLO SLD"] = FollowUpCore.Date_validate(SLDCLODate.Text);
                 TDetails.Rows[index]["Actual Date SLD"] = FollowUpCore.Date_validate(SLDActualDatet.Text);
                 // TDetails.Rows[index]["Actual Hours SLD"]
                 // TDetails.Rows[index]["Standard Hours SLD"] = function return hours per complexity and number of cells and family
-                TDetails.Rows[index]["SLD Modification Complexity"] = SLDModComplexity.Text;
-                TDetails.Rows[index]["SLD Modification Impacted Cells"] = SLDModCells.Text;
+   //             TDetails.Rows[index]["SLD Modification Complexity"] = SLDModComplexity.Text;
+  //              TDetails.Rows[index]["SLD Modification Impacted Cells"] = SLDModCells.Text;
                 TDetails.Rows[index]["SLD Drawing Comment"] = SLDComment.Text;
-                TDetails.Rows[index]["Schematics Modification"] = SchematicsModification.Checked;
+  //              TDetails.Rows[index]["Schematics Modification"] = SchematicsModification.Checked;
                 TDetails.Rows[index]["Due Date Schematics"] = FollowUpCore.Date_validate(SchematicsDueDatet.Text);
                 TDetails.Rows[index]["Due Date CLO Schematics"] = FollowUpCore.Date_validate(SchematicsCLODate.Text);
                 TDetails.Rows[index]["Actual Date Schematics"] = FollowUpCore.Date_validate(SchematicsActualDatet.Text);
-                TDetails.Rows[index]["Schematics Modification Complexity"] = SchematicsModComplexity.Text;
-                TDetails.Rows[index]["Schematics Modification Impacted Cells"] = SchematicsModCells.Text;
+  //              TDetails.Rows[index]["Schematics Modification Complexity"] = SchematicsModComplexity.Text;
+  //              TDetails.Rows[index]["Schematics Modification Impacted Cells"] = SchematicsModCells.Text;
                 TDetails.Rows[index]["Schematics Drawing Comment"] = SchematicsComment.Text;
                 return true;
             }
@@ -289,23 +289,23 @@ namespace FollowUp
                 row["Total Cells"] = NumberOfCells.Text;
                 row["Family"] = Family.Text;
                 row["Complexity"] = Complexity.Text;
-                row["Patch Name"] = PatchName.Text;
+ //               row["Patch Name"] = PatchName.Text;
                 row["Receive Date"] = FollowUpCore.Date_validate(ReciveDatet.Text);
-                row["SLD Modification"] = SLDModification.Checked;
+ //               row["SLD Modification"] = SLDModification.Checked;
                 row["Due Date SLD"] = FollowUpCore.Date_validate(SLDDueDatet.Text);
                 row["Due Date CLO SLD"] = FollowUpCore.Date_validate(SLDCLODate.Text);
                 row["Actual Date SLD"] = FollowUpCore.Date_validate(SLDActualDatet.Text);
                 // row["Actual Hours SLD"]
                 // row["Standard Hours SLD"] = function return hours per complexity and number of cells and family
-                row["SLD Modification Complexity"] = SLDModComplexity.Text;
-                row["SLD Modification Impacted Cells"] = SLDModCells.Text;
+ //               row["SLD Modification Complexity"] = SLDModComplexity.Text;
+ //               row["SLD Modification Impacted Cells"] = SLDModCells.Text;
                 row["SLD Drawing Comment"] = SLDComment.Text;
-                row["Schematics Modification"] = SchematicsModification.Checked;
+ //               row["Schematics Modification"] = SchematicsModification.Checked;
                 row["Due Date Schematics"] = FollowUpCore.Date_validate(SchematicsDueDatet.Text);
                 row["Due Date CLO Schematics"] = FollowUpCore.Date_validate(SchematicsCLODate.Text);
                 row["Actual Date Schematics"] = FollowUpCore.Date_validate(SchematicsActualDatet.Text);
-                row["Schematics Modification Complexity"] = SchematicsModComplexity.Text;
-                row["Schematics Modification Impacted Cells"] = SchematicsModCells.Text;
+   //             row["Schematics Modification Complexity"] = SchematicsModComplexity.Text;
+  //              row["Schematics Modification Impacted Cells"] = SchematicsModCells.Text;
                 row["Schematics Drawing Comment"] = SchematicsComment.Text;
                 //Actual Hours Schematics
                 if (extended)
@@ -334,23 +334,23 @@ namespace FollowUp
             NumberOfCells.Text = "";
             Family.Text = "";
             Complexity.Text = "";
-            PatchName.Text = "";
+ //           PatchName.Text = "";
             ReciveDatet.Text = "";
 
-            SLDModification.Checked = false;
+ //           SLDModification.Checked = false;
             SLDDueDatet.Text = "";
             SLDCLODate.Text = "";
             SLDActualDatet.Text = "";
-            SLDModComplexity.Text = "";
-            SLDModCells.Text = "";
+  //          SLDModComplexity.Text = "";
+ //           SLDModCells.Text = "";
             SLDComment.Text = "";
 
-            SchematicsModification.Checked = false;
+  //          SchematicsModification.Checked = false;
             SchematicsDueDatet.Text = "";
             SchematicsCLODate.Text = "";
             SchematicsActualDatet.Text = "";
-            SchematicsModComplexity.Text = "";
-            SchematicsModCells.Text = "";
+ //           SchematicsModComplexity.Text = "";
+  //          SchematicsModCells.Text = "";
             SchematicsComment.Text = "";
 
         }
@@ -672,18 +672,18 @@ namespace FollowUp
 
         private void SLDModification_CheckedChanged(object sender, EventArgs e)
         {
-            SLDModComplexity.Visible = SLDModification.Checked;
-            label7.Visible = SLDModification.Checked;
-            label6.Visible = SLDModification.Checked;
-            SLDModCells.Visible = SLDModification.Checked;
+  //          SLDModComplexity.Visible = SLDModification.Checked;
+   //         label7.Visible = SLDModification.Checked;
+    //        label6.Visible = SLDModification.Checked;
+  //          SLDModCells.Visible = SLDModification.Checked;
         }
 
         private void SchematicsModification_CheckedChanged(object sender, EventArgs e)
         {
-            label8.Visible = SchematicsModification.Checked;
-            SchematicsModComplexity.Visible = SchematicsModification.Checked;
-            label12.Visible = SchematicsModification.Checked;
-            SchematicsModCells.Visible = SchematicsModification.Checked;
+  //          label8.Visible = SchematicsModification.Checked;
+  //          SchematicsModComplexity.Visible = SchematicsModification.Checked;
+   //         label12.Visible = SchematicsModification.Checked;
+     //       SchematicsModCells.Visible = SchematicsModification.Checked;
         }
 
         private void SLDDrawings_CheckedChanged(object sender, EventArgs e)
@@ -707,16 +707,16 @@ namespace FollowUp
         private void CLOSLDButton_Click(object sender, EventArgs e)
         {
             //TODO: Make Window form that take complexity&Cells&Family and receive date and return CLO date
-            CLO clo = new CLO(Family.Text, Complexity.Text, NumberOfCells.Text, ReciveDatet.Text, CLOSLDButton.Tag.ToString());
-            clo.ShowDialog();
-            SLDCLODate.Text = CLO.CLODate;
+//            CLO clo = new CLO(Family.Text, Complexity.Text, NumberOfCells.Text, ReciveDatet.Text, CLOSLDButton.Tag.ToString());
+    //        clo.ShowDialog();
+    //        SLDCLODate.Text = CLO.CLODate;
         }
 
         private void CLOSchematicsButton_Click(object sender, EventArgs e)
         {
             //TODO: Make Window form that take complexity&Cells&Family and receive date and return CLO date
-            CLO clo = new CLO(Family.Text, Complexity.Text, NumberOfCells.Text, ReciveDatet.Text, CLOSchematicsButton.Tag.ToString());
-            clo.ShowDialog();
+  //          CLO clo = new CLO(Family.Text, Complexity.Text, NumberOfCells.Text, ReciveDatet.Text, CLOSchematicsButton.Tag.ToString());
+  //          clo.ShowDialog();
             SchematicsCLODate.Text = CLO.CLODate;
         }
 
@@ -787,5 +787,7 @@ namespace FollowUp
             }
 
         }
+
+       
     }
 }

@@ -421,8 +421,6 @@ namespace FollowUp
                     OleDbCommand cmd = new OleDbCommand(item, con);
                     cmd.ExecuteNonQuery();
                 }
-
-
             }
             catch (Exception e)
             {
@@ -692,6 +690,25 @@ namespace FollowUp
            
         }
         /// <summary>
+        /// return empty table contain headers and datatype of table in database
+        /// </summary>
+        /// <param name="table_str"></param>
+        /// <returns></returns>
+        public static DataTable ReadSchemaTo_Datatable(string table_str)
+        {
+            string select_str;
+            OleDbConnection con = new OleDbConnection(URL_To_ConnectionString(Properties.Settings.Default.RemoteDBLOC, false));
+            select_str = String.Format( "SELECT TOP 1 *FROM [{0}]", table_str);          
+            OleDbDataAdapter da = new OleDbDataAdapter(select_str, con);           
+            DataTable ds = new DataTable();
+            da.Fill(ds);
+            con.Close();
+            ds.Rows.Clear();
+            return ds;
+
+        }
+
+        /// <summary>
         /// Read with "OR" in filter(filter separated with OR)
         /// </summary>
         /// <param name="dic_where"></param>
@@ -784,11 +801,13 @@ namespace FollowUp
         /// <param name="table_str">table that will be updated in DB</param>
         /// <param name="select_str"> select command to compare data with</param>
         /// <returns>number of changed rows at DB or -1 in case of error</returns>
-        public static int Insert_table(DataTable D_table, string table_str, string select_str,List<string> DeleteList = null)
+        public static int Insert_table(DataTable D_table, string table_str, string select_str="",List<string> DeleteList = null)
         {
 
             int count;
             //start build commands
+            Properties.Settings.Default.RemoteDBLOC = @"C:\Users\sesa407575\OneDrive - Schneider Electric\CSharp\FollowUp 2019\Follow.accdb";
+            Properties.Settings.Default.Save();
             OleDbConnection con = new OleDbConnection(URL_To_ConnectionString(Properties.Settings.Default.RemoteDBLOC,true));
             if (select_str == "")
             {

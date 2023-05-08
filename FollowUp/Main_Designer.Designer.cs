@@ -133,11 +133,11 @@
             this.groupBox1.Controls.Add(this.OrderSchematicsPrev);
             this.groupBox1.Controls.Add(this.OrderSLDPrev);
             this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Location = new System.Drawing.Point(72, 45);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(64, 38);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(1018, 298);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox1.Size = new System.Drawing.Size(905, 251);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "My Orders";
@@ -147,10 +147,10 @@
             this.LblOtherOrder.AutoSize = true;
             this.LblOtherOrder.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblOtherOrder.ForeColor = System.Drawing.Color.DarkBlue;
-            this.LblOtherOrder.Location = new System.Drawing.Point(772, 189);
+            this.LblOtherOrder.Location = new System.Drawing.Point(686, 159);
             this.LblOtherOrder.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblOtherOrder.Name = "LblOtherOrder";
-            this.LblOtherOrder.Size = new System.Drawing.Size(0, 39);
+            this.LblOtherOrder.Size = new System.Drawing.Size(0, 33);
             this.LblOtherOrder.TabIndex = 31;
             // 
             // LblSpare
@@ -158,10 +158,10 @@
             this.LblSpare.AutoSize = true;
             this.LblSpare.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSpare.ForeColor = System.Drawing.Color.DarkBlue;
-            this.LblSpare.Location = new System.Drawing.Point(618, 189);
+            this.LblSpare.Location = new System.Drawing.Point(549, 159);
             this.LblSpare.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSpare.Name = "LblSpare";
-            this.LblSpare.Size = new System.Drawing.Size(0, 39);
+            this.LblSpare.Size = new System.Drawing.Size(0, 33);
             this.LblSpare.TabIndex = 30;
             // 
             // LblSchematicsOrder
@@ -169,10 +169,10 @@
             this.LblSchematicsOrder.AutoSize = true;
             this.LblSchematicsOrder.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSchematicsOrder.ForeColor = System.Drawing.Color.DarkBlue;
-            this.LblSchematicsOrder.Location = new System.Drawing.Point(472, 80);
+            this.LblSchematicsOrder.Location = new System.Drawing.Point(420, 67);
             this.LblSchematicsOrder.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSchematicsOrder.Name = "LblSchematicsOrder";
-            this.LblSchematicsOrder.Size = new System.Drawing.Size(0, 39);
+            this.LblSchematicsOrder.Size = new System.Drawing.Size(0, 33);
             this.LblSchematicsOrder.TabIndex = 29;
             // 
             // LblAS
@@ -180,10 +180,10 @@
             this.LblAS.AutoSize = true;
             this.LblAS.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblAS.ForeColor = System.Drawing.Color.DarkBlue;
-            this.LblAS.Location = new System.Drawing.Point(316, 189);
+            this.LblAS.Location = new System.Drawing.Point(281, 159);
             this.LblAS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblAS.Name = "LblAS";
-            this.LblAS.Size = new System.Drawing.Size(0, 39);
+            this.LblAS.Size = new System.Drawing.Size(0, 33);
             this.LblAS.TabIndex = 28;
             // 
             // LblPF
@@ -191,10 +191,10 @@
             this.LblPF.AutoSize = true;
             this.LblPF.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblPF.ForeColor = System.Drawing.Color.DarkBlue;
-            this.LblPF.Location = new System.Drawing.Point(164, 189);
+            this.LblPF.Location = new System.Drawing.Point(146, 159);
             this.LblPF.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblPF.Name = "LblPF";
-            this.LblPF.Size = new System.Drawing.Size(0, 39);
+            this.LblPF.Size = new System.Drawing.Size(0, 33);
             this.LblPF.TabIndex = 27;
             // 
             // LblNSR
@@ -202,10 +202,10 @@
             this.LblNSR.AutoSize = true;
             this.LblNSR.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblNSR.ForeColor = System.Drawing.Color.DarkBlue;
-            this.LblNSR.Location = new System.Drawing.Point(936, 80);
+            this.LblNSR.Location = new System.Drawing.Point(832, 67);
             this.LblNSR.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblNSR.Name = "LblNSR";
-            this.LblNSR.Size = new System.Drawing.Size(0, 39);
+            this.LblNSR.Size = new System.Drawing.Size(0, 33);
             this.LblNSR.TabIndex = 26;
             // 
             // LblBBOM
@@ -213,10 +213,10 @@
             this.LblBBOM.AutoSize = true;
             this.LblBBOM.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblBBOM.ForeColor = System.Drawing.Color.DarkBlue;
-            this.LblBBOM.Location = new System.Drawing.Point(782, 80);
+            this.LblBBOM.Location = new System.Drawing.Point(695, 67);
             this.LblBBOM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblBBOM.Name = "LblBBOM";
-            this.LblBBOM.Size = new System.Drawing.Size(0, 39);
+            this.LblBBOM.Size = new System.Drawing.Size(0, 33);
             this.LblBBOM.TabIndex = 25;
             // 
             // LblABOM
@@ -224,10 +224,10 @@
             this.LblABOM.AutoSize = true;
             this.LblABOM.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblABOM.ForeColor = System.Drawing.Color.DarkBlue;
-            this.LblABOM.Location = new System.Drawing.Point(627, 80);
+            this.LblABOM.Location = new System.Drawing.Point(557, 67);
             this.LblABOM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblABOM.Name = "LblABOM";
-            this.LblABOM.Size = new System.Drawing.Size(0, 39);
+            this.LblABOM.Size = new System.Drawing.Size(0, 33);
             this.LblABOM.TabIndex = 24;
             // 
             // LblComsultation
@@ -235,10 +235,10 @@
             this.LblComsultation.AutoSize = true;
             this.LblComsultation.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblComsultation.ForeColor = System.Drawing.Color.DarkBlue;
-            this.LblComsultation.Location = new System.Drawing.Point(472, 189);
+            this.LblComsultation.Location = new System.Drawing.Point(420, 159);
             this.LblComsultation.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblComsultation.Name = "LblComsultation";
-            this.LblComsultation.Size = new System.Drawing.Size(0, 39);
+            this.LblComsultation.Size = new System.Drawing.Size(0, 33);
             this.LblComsultation.TabIndex = 23;
             // 
             // LblSLDOrder
@@ -246,19 +246,19 @@
             this.LblSLDOrder.AutoSize = true;
             this.LblSLDOrder.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSLDOrder.ForeColor = System.Drawing.Color.DarkBlue;
-            this.LblSLDOrder.Location = new System.Drawing.Point(316, 80);
+            this.LblSLDOrder.Location = new System.Drawing.Point(281, 67);
             this.LblSLDOrder.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSLDOrder.Name = "LblSLDOrder";
-            this.LblSLDOrder.Size = new System.Drawing.Size(0, 39);
+            this.LblSLDOrder.Size = new System.Drawing.Size(0, 33);
             this.LblSLDOrder.TabIndex = 22;
             // 
             // pictureBox11
             // 
             this.pictureBox11.Image = global::FollowUp.Properties.Resources._2000px_Warning_icon_svg;
-            this.pictureBox11.Location = new System.Drawing.Point(710, 149);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox11.Location = new System.Drawing.Point(631, 125);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(45, 37);
+            this.pictureBox11.Size = new System.Drawing.Size(40, 31);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox11.TabIndex = 21;
             this.pictureBox11.TabStop = false;
@@ -267,10 +267,10 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = global::FollowUp.Properties.Resources._2000px_Warning_icon_svg;
-            this.pictureBox9.Location = new System.Drawing.Point(555, 149);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox9.Location = new System.Drawing.Point(493, 125);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(45, 37);
+            this.pictureBox9.Size = new System.Drawing.Size(40, 31);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox9.TabIndex = 20;
             this.pictureBox9.TabStop = false;
@@ -279,10 +279,10 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::FollowUp.Properties.Resources._2000px_Warning_icon_svg;
-            this.pictureBox10.Location = new System.Drawing.Point(400, 149);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox10.Location = new System.Drawing.Point(356, 125);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(45, 37);
+            this.pictureBox10.Size = new System.Drawing.Size(40, 31);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 19;
             this.pictureBox10.TabStop = false;
@@ -291,10 +291,10 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::FollowUp.Properties.Resources._2000px_Warning_icon_svg;
-            this.pictureBox7.Location = new System.Drawing.Point(246, 149);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox7.Location = new System.Drawing.Point(219, 125);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(45, 37);
+            this.pictureBox7.Size = new System.Drawing.Size(40, 31);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 18;
             this.pictureBox7.TabStop = false;
@@ -303,10 +303,10 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::FollowUp.Properties.Resources._2000px_Warning_icon_svg;
-            this.pictureBox8.Location = new System.Drawing.Point(92, 149);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox8.Location = new System.Drawing.Point(82, 125);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(45, 37);
+            this.pictureBox8.Size = new System.Drawing.Size(40, 31);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 17;
             this.pictureBox8.TabStop = false;
@@ -315,10 +315,10 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::FollowUp.Properties.Resources._2000px_Warning_icon_svg;
-            this.pictureBox5.Location = new System.Drawing.Point(864, 37);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Location = new System.Drawing.Point(768, 31);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(45, 37);
+            this.pictureBox5.Size = new System.Drawing.Size(40, 31);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 16;
             this.pictureBox5.TabStop = false;
@@ -327,10 +327,10 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::FollowUp.Properties.Resources._2000px_Warning_icon_svg;
-            this.pictureBox6.Location = new System.Drawing.Point(710, 37);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Location = new System.Drawing.Point(631, 31);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(45, 37);
+            this.pictureBox6.Size = new System.Drawing.Size(40, 31);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 15;
             this.pictureBox6.TabStop = false;
@@ -339,10 +339,10 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::FollowUp.Properties.Resources._2000px_Warning_icon_svg;
-            this.pictureBox3.Location = new System.Drawing.Point(555, 37);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(493, 31);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(45, 37);
+            this.pictureBox3.Size = new System.Drawing.Size(40, 31);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 14;
             this.pictureBox3.TabStop = false;
@@ -351,10 +351,10 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::FollowUp.Properties.Resources._2000px_Warning_icon_svg;
-            this.pictureBox4.Location = new System.Drawing.Point(400, 37);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Location = new System.Drawing.Point(356, 31);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(45, 37);
+            this.pictureBox4.Size = new System.Drawing.Size(40, 31);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 13;
             this.pictureBox4.TabStop = false;
@@ -363,10 +363,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::FollowUp.Properties.Resources._2000px_Warning_icon_svg;
-            this.pictureBox2.Location = new System.Drawing.Point(246, 37);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(219, 31);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(45, 37);
+            this.pictureBox2.Size = new System.Drawing.Size(40, 31);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
@@ -375,10 +375,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::FollowUp.Properties.Resources._2000px_Warning_icon_svg;
-            this.pictureBox1.Location = new System.Drawing.Point(92, 37);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(82, 31);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(45, 37);
+            this.pictureBox1.Size = new System.Drawing.Size(40, 31);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -389,19 +389,19 @@
             this.LblNewOrder.AutoSize = true;
             this.LblNewOrder.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblNewOrder.ForeColor = System.Drawing.Color.DarkBlue;
-            this.LblNewOrder.Location = new System.Drawing.Point(164, 80);
+            this.LblNewOrder.Location = new System.Drawing.Point(146, 67);
             this.LblNewOrder.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblNewOrder.Name = "LblNewOrder";
-            this.LblNewOrder.Size = new System.Drawing.Size(0, 39);
+            this.LblNewOrder.Size = new System.Drawing.Size(0, 33);
             this.LblNewOrder.TabIndex = 11;
             this.LblNewOrder.Visible = false;
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(710, 149);
-            this.button11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button11.Location = new System.Drawing.Point(631, 125);
+            this.button11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(144, 104);
+            this.button11.Size = new System.Drawing.Size(128, 88);
             this.button11.TabIndex = 10;
             this.button11.Text = "Other tasks";
             this.button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -409,10 +409,10 @@
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(555, 149);
-            this.button10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button10.Location = new System.Drawing.Point(493, 125);
+            this.button10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(144, 104);
+            this.button10.Size = new System.Drawing.Size(128, 88);
             this.button10.TabIndex = 9;
             this.button10.Text = "Spares";
             this.button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -420,10 +420,10 @@
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(400, 149);
-            this.button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button9.Location = new System.Drawing.Point(356, 125);
+            this.button9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(144, 104);
+            this.button9.Size = new System.Drawing.Size(128, 88);
             this.button9.TabIndex = 8;
             this.button9.Text = "Consultation";
             this.button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -431,10 +431,10 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(246, 149);
-            this.button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button8.Location = new System.Drawing.Point(219, 125);
+            this.button8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(144, 104);
+            this.button8.Size = new System.Drawing.Size(128, 88);
             this.button8.TabIndex = 7;
             this.button8.Text = "As Manufacture";
             this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -442,10 +442,10 @@
             // 
             // OrderPFPrev
             // 
-            this.OrderPFPrev.Location = new System.Drawing.Point(92, 149);
-            this.OrderPFPrev.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.OrderPFPrev.Location = new System.Drawing.Point(82, 125);
+            this.OrderPFPrev.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.OrderPFPrev.Name = "OrderPFPrev";
-            this.OrderPFPrev.Size = new System.Drawing.Size(144, 104);
+            this.OrderPFPrev.Size = new System.Drawing.Size(128, 88);
             this.OrderPFPrev.TabIndex = 6;
             this.OrderPFPrev.Text = "Production file";
             this.OrderPFPrev.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -454,10 +454,10 @@
             // 
             // OrderNSRPrev
             // 
-            this.OrderNSRPrev.Location = new System.Drawing.Point(864, 37);
-            this.OrderNSRPrev.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.OrderNSRPrev.Location = new System.Drawing.Point(768, 31);
+            this.OrderNSRPrev.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.OrderNSRPrev.Name = "OrderNSRPrev";
-            this.OrderNSRPrev.Size = new System.Drawing.Size(144, 104);
+            this.OrderNSRPrev.Size = new System.Drawing.Size(128, 88);
             this.OrderNSRPrev.TabIndex = 5;
             this.OrderNSRPrev.Text = "NSR";
             this.OrderNSRPrev.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -466,10 +466,10 @@
             // 
             // OrderBBOMPrev
             // 
-            this.OrderBBOMPrev.Location = new System.Drawing.Point(710, 37);
-            this.OrderBBOMPrev.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.OrderBBOMPrev.Location = new System.Drawing.Point(631, 31);
+            this.OrderBBOMPrev.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.OrderBBOMPrev.Name = "OrderBBOMPrev";
-            this.OrderBBOMPrev.Size = new System.Drawing.Size(144, 104);
+            this.OrderBBOMPrev.Size = new System.Drawing.Size(128, 88);
             this.OrderBBOMPrev.TabIndex = 4;
             this.OrderBBOMPrev.Text = "BBOM";
             this.OrderBBOMPrev.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -478,10 +478,10 @@
             // 
             // OrderABOMPrev
             // 
-            this.OrderABOMPrev.Location = new System.Drawing.Point(555, 37);
-            this.OrderABOMPrev.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.OrderABOMPrev.Location = new System.Drawing.Point(493, 31);
+            this.OrderABOMPrev.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.OrderABOMPrev.Name = "OrderABOMPrev";
-            this.OrderABOMPrev.Size = new System.Drawing.Size(144, 104);
+            this.OrderABOMPrev.Size = new System.Drawing.Size(128, 88);
             this.OrderABOMPrev.TabIndex = 3;
             this.OrderABOMPrev.Text = "ABOM";
             this.OrderABOMPrev.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -490,10 +490,10 @@
             // 
             // OrderSchematicsPrev
             // 
-            this.OrderSchematicsPrev.Location = new System.Drawing.Point(400, 37);
-            this.OrderSchematicsPrev.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.OrderSchematicsPrev.Location = new System.Drawing.Point(356, 31);
+            this.OrderSchematicsPrev.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.OrderSchematicsPrev.Name = "OrderSchematicsPrev";
-            this.OrderSchematicsPrev.Size = new System.Drawing.Size(144, 104);
+            this.OrderSchematicsPrev.Size = new System.Drawing.Size(128, 88);
             this.OrderSchematicsPrev.TabIndex = 2;
             this.OrderSchematicsPrev.Text = "Schematics";
             this.OrderSchematicsPrev.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -502,10 +502,10 @@
             // 
             // OrderSLDPrev
             // 
-            this.OrderSLDPrev.Location = new System.Drawing.Point(246, 37);
-            this.OrderSLDPrev.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.OrderSLDPrev.Location = new System.Drawing.Point(219, 31);
+            this.OrderSLDPrev.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.OrderSLDPrev.Name = "OrderSLDPrev";
-            this.OrderSLDPrev.Size = new System.Drawing.Size(144, 104);
+            this.OrderSLDPrev.Size = new System.Drawing.Size(128, 88);
             this.OrderSLDPrev.TabIndex = 1;
             this.OrderSLDPrev.Text = "SLD/Layout";
             this.OrderSLDPrev.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -514,10 +514,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(92, 37);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(82, 31);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(144, 104);
+            this.button1.Size = new System.Drawing.Size(128, 88);
             this.button1.TabIndex = 0;
             this.button1.Text = "New Order";
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -535,11 +535,11 @@
             this.groupBox2.Controls.Add(this.OfferSchematicPrev);
             this.groupBox2.Controls.Add(this.OfferSLDPrev);
             this.groupBox2.Controls.Add(this.button14);
-            this.groupBox2.Location = new System.Drawing.Point(72, 352);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Location = new System.Drawing.Point(64, 296);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox2.Size = new System.Drawing.Size(1018, 177);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox2.Size = new System.Drawing.Size(905, 149);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "My Offers";
@@ -549,10 +549,10 @@
             this.LblSchematicsOffer.AutoSize = true;
             this.LblSchematicsOffer.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSchematicsOffer.ForeColor = System.Drawing.Color.DarkBlue;
-            this.LblSchematicsOffer.Location = new System.Drawing.Point(477, 80);
+            this.LblSchematicsOffer.Location = new System.Drawing.Point(424, 67);
             this.LblSchematicsOffer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSchematicsOffer.Name = "LblSchematicsOffer";
-            this.LblSchematicsOffer.Size = new System.Drawing.Size(0, 39);
+            this.LblSchematicsOffer.Size = new System.Drawing.Size(0, 33);
             this.LblSchematicsOffer.TabIndex = 34;
             // 
             // LblSLDOffer
@@ -560,10 +560,10 @@
             this.LblSLDOffer.AutoSize = true;
             this.LblSLDOffer.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSLDOffer.ForeColor = System.Drawing.Color.DarkBlue;
-            this.LblSLDOffer.Location = new System.Drawing.Point(321, 80);
+            this.LblSLDOffer.Location = new System.Drawing.Point(285, 67);
             this.LblSLDOffer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSLDOffer.Name = "LblSLDOffer";
-            this.LblSLDOffer.Size = new System.Drawing.Size(0, 39);
+            this.LblSLDOffer.Size = new System.Drawing.Size(0, 33);
             this.LblSLDOffer.TabIndex = 33;
             // 
             // LblNewOffer
@@ -571,19 +571,19 @@
             this.LblNewOffer.AutoSize = true;
             this.LblNewOffer.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblNewOffer.ForeColor = System.Drawing.Color.DarkBlue;
-            this.LblNewOffer.Location = new System.Drawing.Point(168, 80);
+            this.LblNewOffer.Location = new System.Drawing.Point(149, 67);
             this.LblNewOffer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblNewOffer.Name = "LblNewOffer";
-            this.LblNewOffer.Size = new System.Drawing.Size(0, 39);
+            this.LblNewOffer.Size = new System.Drawing.Size(0, 33);
             this.LblNewOffer.TabIndex = 32;
             // 
             // pictureBox14
             // 
             this.pictureBox14.Image = global::FollowUp.Properties.Resources._2000px_Warning_icon_svg;
-            this.pictureBox14.Location = new System.Drawing.Point(400, 45);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox14.Location = new System.Drawing.Point(356, 38);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(45, 37);
+            this.pictureBox14.Size = new System.Drawing.Size(40, 31);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox14.TabIndex = 24;
             this.pictureBox14.TabStop = false;
@@ -592,10 +592,10 @@
             // pictureBox13
             // 
             this.pictureBox13.Image = global::FollowUp.Properties.Resources._2000px_Warning_icon_svg;
-            this.pictureBox13.Location = new System.Drawing.Point(246, 45);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox13.Location = new System.Drawing.Point(219, 38);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(45, 37);
+            this.pictureBox13.Size = new System.Drawing.Size(40, 31);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox13.TabIndex = 23;
             this.pictureBox13.TabStop = false;
@@ -604,10 +604,10 @@
             // pictureBox12
             // 
             this.pictureBox12.Image = global::FollowUp.Properties.Resources._2000px_Warning_icon_svg;
-            this.pictureBox12.Location = new System.Drawing.Point(92, 45);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox12.Location = new System.Drawing.Point(82, 38);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(45, 37);
+            this.pictureBox12.Size = new System.Drawing.Size(40, 31);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox12.TabIndex = 22;
             this.pictureBox12.TabStop = false;
@@ -615,10 +615,10 @@
             // 
             // OfferSchematicPrev
             // 
-            this.OfferSchematicPrev.Location = new System.Drawing.Point(400, 45);
-            this.OfferSchematicPrev.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.OfferSchematicPrev.Location = new System.Drawing.Point(356, 38);
+            this.OfferSchematicPrev.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.OfferSchematicPrev.Name = "OfferSchematicPrev";
-            this.OfferSchematicPrev.Size = new System.Drawing.Size(144, 104);
+            this.OfferSchematicPrev.Size = new System.Drawing.Size(128, 88);
             this.OfferSchematicPrev.TabIndex = 13;
             this.OfferSchematicPrev.Text = "Schematics";
             this.OfferSchematicPrev.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -627,10 +627,10 @@
             // 
             // OfferSLDPrev
             // 
-            this.OfferSLDPrev.Location = new System.Drawing.Point(244, 45);
-            this.OfferSLDPrev.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.OfferSLDPrev.Location = new System.Drawing.Point(217, 38);
+            this.OfferSLDPrev.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.OfferSLDPrev.Name = "OfferSLDPrev";
-            this.OfferSLDPrev.Size = new System.Drawing.Size(144, 104);
+            this.OfferSLDPrev.Size = new System.Drawing.Size(128, 88);
             this.OfferSLDPrev.TabIndex = 12;
             this.OfferSLDPrev.Text = "SLD/Layout";
             this.OfferSLDPrev.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -639,10 +639,10 @@
             // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(92, 45);
-            this.button14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button14.Location = new System.Drawing.Point(82, 38);
+            this.button14.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(144, 104);
+            this.button14.Size = new System.Drawing.Size(128, 88);
             this.button14.TabIndex = 11;
             this.button14.Text = "New Offer";
             this.button14.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -653,21 +653,21 @@
             // 
             this.groupBox3.Controls.Add(this.PrintTaskReport);
             this.groupBox3.Controls.Add(this.button15);
-            this.groupBox3.Location = new System.Drawing.Point(72, 538);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Location = new System.Drawing.Point(64, 453);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox3.Size = new System.Drawing.Size(1018, 177);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox3.Size = new System.Drawing.Size(905, 149);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "My Other Tasks";
             // 
             // PrintTaskReport
             // 
-            this.PrintTaskReport.Location = new System.Drawing.Point(456, 47);
-            this.PrintTaskReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PrintTaskReport.Location = new System.Drawing.Point(405, 40);
+            this.PrintTaskReport.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PrintTaskReport.Name = "PrintTaskReport";
-            this.PrintTaskReport.Size = new System.Drawing.Size(144, 104);
+            this.PrintTaskReport.Size = new System.Drawing.Size(128, 88);
             this.PrintTaskReport.TabIndex = 17;
             this.PrintTaskReport.Text = "Print Task Report";
             this.PrintTaskReport.UseVisualStyleBackColor = true;
@@ -675,10 +675,10 @@
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(92, 47);
-            this.button15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button15.Location = new System.Drawing.Point(82, 40);
+            this.button15.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(144, 104);
+            this.button15.Size = new System.Drawing.Size(128, 88);
             this.button15.TabIndex = 15;
             this.button15.Text = "Tasks";
             this.button15.UseVisualStyleBackColor = true;
@@ -686,10 +686,10 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(1011, 3);
+            this.linkLabel1.Location = new System.Drawing.Point(899, 3);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(134, 19);
+            this.linkLabel1.Size = new System.Drawing.Size(122, 17);
             this.linkLabel1.TabIndex = 3;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Change Password";
@@ -699,29 +699,29 @@
             // 
             this.LblName.AutoSize = true;
             this.LblName.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblName.Location = new System.Drawing.Point(117, 19);
+            this.LblName.Location = new System.Drawing.Point(104, 16);
             this.LblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblName.Name = "LblName";
-            this.LblName.Size = new System.Drawing.Size(0, 24);
+            this.LblName.Size = new System.Drawing.Size(0, 21);
             this.LblName.TabIndex = 10;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(42, 18);
+            this.label1.Location = new System.Drawing.Point(37, 15);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 24);
+            this.label1.Size = new System.Drawing.Size(60, 21);
             this.label1.TabIndex = 11;
             this.label1.Text = "Hello:";
             // 
             // Refresh
             // 
-            this.Refresh.Location = new System.Drawing.Point(1122, 212);
-            this.Refresh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Refresh.Location = new System.Drawing.Point(997, 179);
+            this.Refresh.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Refresh.Name = "Refresh";
-            this.Refresh.Size = new System.Drawing.Size(148, 34);
+            this.Refresh.Size = new System.Drawing.Size(132, 29);
             this.Refresh.TabIndex = 12;
             this.Refresh.Text = "Refresh";
             this.Refresh.UseVisualStyleBackColor = true;
@@ -729,10 +729,10 @@
             // 
             // Main_Designer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1312, 737);
+            this.ClientSize = new System.Drawing.Size(1166, 621);
             this.Controls.Add(this.Refresh);
             this.Controls.Add(this.LblName);
             this.Controls.Add(this.label1);
@@ -741,7 +741,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Main_Designer";

@@ -67,15 +67,32 @@ namespace FollowUp
             }
             else if (FollowUpCore.UserDepartment == "MV")
             {
-                Family.Items.Add("RONEX");
+               
                 Family.Items.Add("SM6");
+                Family.Items.Add("RM6");
                 Family.Items.Add("MCSET123");
                 Family.Items.Add("MCSET4");
+                Family.Items.Add("RONEX");
+                Family.Items.Add("VARBLOK");
+                Family.Items.Add("PIXROF");
+                Family.Items.Add("RETROFET");
+                Family.Items.Add("SPARE");
+            }
+            else if (FollowUpCore.UserDepartment == "ALL")
+            {
+                Family.Items.Add("BK7");
+                Family.Items.Add("OKKEN");
+                Family.Items.Add("SPARE");
+                Family.Items.Add("SM6");
+                Family.Items.Add("RM6");
+                Family.Items.Add("MCSET123");
+                Family.Items.Add("MCSET4");
+                Family.Items.Add("RONEX");
                 Family.Items.Add("VARBLOK");
                 Family.Items.Add("PIXROF");
                 Family.Items.Add("RETROFET");
             }
-            //Complexity is fixed
+                //Complexity is fixed
             Complexity.Items.Add("SIMPLE");
             Complexity.Items.Add("MEDIUM");
             Complexity.Items.Add("COMPLEX");

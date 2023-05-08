@@ -12,8 +12,8 @@ namespace FollowUp.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.0.1.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.5.0.0")]
+    public sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
         
@@ -57,7 +57,7 @@ namespace FollowUp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("\\\\WAEG00202\\portal\\TDO-Quality Improvement\\FollowUp-Tool\\FollowUp.accdb")]
+        [global::System.Configuration.DefaultSettingValueAttribute("D:\\C sharp Codetest\\FollowUp 2019\\followup2019\\FollowUp\\bin\\Follow.accdb")]
         public string RemoteDBLOC {
             get {
                 return ((string)(this["RemoteDBLOC"]));

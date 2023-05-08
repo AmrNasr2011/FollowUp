@@ -55,7 +55,9 @@ namespace FollowUp
                 }
             }
             view(c, TDetails.Rows.Count);
-            
+            //add check for BOM and Production file
+            ABOM.Checked = true;
+            ProductionBOM.Checked = true;
         }
 
         private void FIDueDateSLDt_TextChanged(object sender, EventArgs e)
@@ -1175,6 +1177,5 @@ namespace FollowUp
             NSR.Enabled = !NOTHasNSR.Checked; 
 
         }
-     
     }
 }
